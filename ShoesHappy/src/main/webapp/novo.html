@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Novo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Criar novo Cadastro</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="endereco" placeholder="Endereço"
+					class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="modalidade" placeholder="Modalidade"
+					class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Salvar" class="Botao1" onclick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
